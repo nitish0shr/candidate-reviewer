@@ -1,0 +1,271 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-25",
+  "skills": [
+    {
+      "name": "JavaScript",
+      "category": "Programming Languages",
+      "keywords": ["js", "javascript", "es6", "ecmascript", "node.js", "nodejs"]
+    },
+    {
+      "name": "TypeScript",
+      "category": "Programming Languages",
+      "keywords": ["ts", "typescript"]
+    },
+    {
+      "name": "Python",
+      "category": "Programming Languages",
+      "keywords": ["python", "py", "python3"]
+    },
+    {
+      "name": "Java",
+      "category": "Programming Languages",
+      "keywords": ["java", "jvm", "spring", "spring boot"]
+    },
+    {
+      "name": "C++",
+      "category": "Programming Languages",
+      "keywords": ["c++", "cpp", "cplusplus"]
+    },
+    {
+      "name": "C#",
+      "category": "Programming Languages",
+      "keywords": ["c#", "csharp", ".net", "dotnet"]
+    },
+    {
+      "name": "Go",
+      "category": "Programming Languages",
+      "keywords": ["go", "golang"]
+    },
+    {
+      "name": "Rust",
+      "category": "Programming Languages",
+      "keywords": ["rust"]
+    },
+    {
+      "name": "Ruby",
+      "category": "Programming Languages",
+      "keywords": ["ruby", "rails", "ruby on rails"]
+    },
+    {
+      "name": "PHP",
+      "category": "Programming Languages",
+      "keywords": ["php", "laravel", "symfony"]
+    },
+    {
+      "name": "Swift",
+      "category": "Programming Languages",
+      "keywords": ["swift", "ios"]
+    },
+    {
+      "name": "Kotlin",
+      "category": "Programming Languages",
+      "keywords": ["kotlin", "android"]
+    },
+    {
+      "name": "React",
+      "category": "Frontend Frameworks",
+      "keywords": ["react", "reactjs", "react.js", "jsx"]
+    },
+    {
+      "name": "Vue.js",
+      "category": "Frontend Frameworks",
+      "keywords": ["vue", "vuejs", "vue.js"]
+    },
+    {
+      "name": "Angular",
+      "category": "Frontend Frameworks",
+      "keywords": ["angular", "angularjs"]
+    },
+    {
+      "name": "Svelte",
+      "category": "Frontend Frameworks",
+      "keywords": ["svelte", "sveltekit"]
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend Frameworks",
+      "keywords": ["node", "nodejs", "node.js", "express", "expressjs"]
+    },
+    {
+      "name": "Django",
+      "category": "Backend Frameworks",
+      "keywords": ["django"]
+    },
+    {
+      "name": "Flask",
+      "category": "Backend Frameworks",
+      "keywords": ["flask"]
+    },
+    {
+      "name": "Spring Boot",
+      "category": "Backend Frameworks",
+      "keywords": ["spring", "spring boot", "springboot"]
+    },
+    {
+      "name": "FastAPI",
+      "category": "Backend Frameworks",
+      "keywords": ["fastapi"]
+    },
+    {
+      "name": "SQL",
+      "category": "Databases",
+      "keywords": ["sql", "structured query language", "mysql", "postgresql", "sqlite"]
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Databases",
+      "keywords": ["postgresql", "postgres", "psql"]
+    },
+    {
+      "name": "MongoDB",
+      "category": "Databases",
+      "keywords": ["mongodb", "mongo", "nosql"]
+    },
+    {
+      "name": "Redis",
+      "category": "Databases",
+      "keywords": ["redis"]
+    },
+    {
+      "name": "MySQL",
+      "category": "Databases",
+      "keywords": ["mysql"]
+    },
+    {
+      "name": "Oracle",
+      "category": "Databases",
+      "keywords": ["oracle", "oracle database"]
+    },
+    {
+      "name": "AWS",
+      "category": "Cloud Platforms",
+      "keywords": ["aws", "amazon web services", "ec2", "s3", "lambda"]
+    },
+    {
+      "name": "Azure",
+      "category": "Cloud Platforms",
+      "keywords": ["azure", "microsoft azure"]
+    },
+    {
+      "name": "Google Cloud",
+      "category": "Cloud Platforms",
+      "keywords": ["gcp", "google cloud", "google cloud platform"]
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps",
+      "keywords": ["docker", "container", "containerization"]
+    },
+    {
+      "name": "Kubernetes",
+      "category": "DevOps",
+      "keywords": ["kubernetes", "k8s", "kubectl"]
+    },
+    {
+      "name": "CI/CD",
+      "category": "DevOps",
+      "keywords": ["ci/cd", "continuous integration", "continuous deployment", "jenkins", "gitlab ci", "github actions"]
+    },
+    {
+      "name": "Terraform",
+      "category": "DevOps",
+      "keywords": ["terraform", "infrastructure as code"]
+    },
+    {
+      "name": "Git",
+      "category": "Version Control",
+      "keywords": ["git", "github", "gitlab", "bitbucket"]
+    },
+    {
+      "name": "Machine Learning",
+      "category": "AI/ML",
+      "keywords": ["ml", "machine learning", "scikit-learn", "sklearn"]
+    },
+    {
+      "name": "Deep Learning",
+      "category": "AI/ML",
+      "keywords": ["deep learning", "neural networks", "cnn", "rnn"]
+    },
+    {
+      "name": "TensorFlow",
+      "category": "AI/ML",
+      "keywords": ["tensorflow", "tf"]
+    },
+    {
+      "name": "PyTorch",
+      "category": "AI/ML",
+      "keywords": ["pytorch", "torch"]
+    },
+    {
+      "name": "Natural Language Processing",
+      "category": "AI/ML",
+      "keywords": ["nlp", "natural language processing", "text processing"]
+    },
+    {
+      "name": "Computer Vision",
+      "category": "AI/ML",
+      "keywords": ["computer vision", "cv", "image processing", "opencv"]
+    },
+    {
+      "name": "REST API",
+      "category": "API Technologies",
+      "keywords": ["rest", "restful", "rest api", "api"]
+    },
+    {
+      "name": "GraphQL",
+      "category": "API Technologies",
+      "keywords": ["graphql"]
+    },
+    {
+      "name": "Microservices",
+      "category": "Architecture",
+      "keywords": ["microservices", "microservice architecture"]
+    },
+    {
+      "name": "System Design",
+      "category": "Architecture",
+      "keywords": ["system design", "architecture", "scalability"]
+    },
+    {
+      "name": "Agile",
+      "category": "Methodologies",
+      "keywords": ["agile", "scrum", "kanban", "sprint"]
+    },
+    {
+      "name": "Testing",
+      "category": "Quality Assurance",
+      "keywords": ["testing", "unit testing", "integration testing", "jest", "pytest", "junit"]
+    },
+    {
+      "name": "HTML",
+      "category": "Web Technologies",
+      "keywords": ["html", "html5"]
+    },
+    {
+      "name": "CSS",
+      "category": "Web Technologies",
+      "keywords": ["css", "css3", "sass", "scss", "less"]
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "Web Technologies",
+      "keywords": ["tailwind", "tailwindcss", "tailwind css"]
+    },
+    {
+      "name": "Data Analysis",
+      "category": "Data Science",
+      "keywords": ["data analysis", "pandas", "numpy"]
+    },
+    {
+      "name": "Data Visualization",
+      "category": "Data Science",
+      "keywords": ["data visualization", "matplotlib", "seaborn", "tableau", "power bi"]
+    },
+    {
+      "name": "Big Data",
+      "category": "Data Science",
+      "keywords": ["big data", "hadoop", "spark", "apache spark"]
+    }
+  ]
+}
