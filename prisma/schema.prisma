@@ -1,0 +1,51 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String?
+  role  String
+  candidates Candidate[]
+  evaluations Evaluation[] @relation("UserEvaluations")
+}
+
+model Candidate {
+  id        Int    @id @default(autoincrement())
+  name      String
+  contactInfo String?
+  resumePath String?
+  parsedResumeJson Json?
+  userId    Int
+  user      User    @relation(fields: [userId], references: [id])
+  evaluations Evaluation[]
+}
+
+model Rubric {
+  id        Int    @id @default(autoincrement())
+  title     String
+  criteria  Json
+  weightings Json
+  createdBy Int
+  creator   User @relation(fields: [createdBy], references: [id])
+  evaluations Evaluation[]
+}
+
+model Evaluation {
+  id          Int      @id @default(autoincrement())
+  candidate   Candidate @relation(fields: [candidateId], references: [id])
+  candidateId Int
+  reviewer    User      @relation(name: "UserEvaluations", fields: [reviewerId], references: [id])
+  reviewerId  Int
+  rubric      Rubric?   @relation(fields: [rubricId], references: [id])
+  rubricId    Int?
+  scores      Json
+  comments    String?
+  createdAt   DateTime @default(now())
+}
